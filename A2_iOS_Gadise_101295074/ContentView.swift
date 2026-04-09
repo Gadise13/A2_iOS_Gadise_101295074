@@ -38,6 +38,7 @@ struct ContentView: View {
                 }
 
                 Divider()
+              //Add previous and next navigation controls
 
                 NavigationLink("View Product List", destination: ProductListView())
                 NavigationLink("Search Products", destination: SearchView())
