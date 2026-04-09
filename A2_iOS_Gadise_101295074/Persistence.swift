@@ -34,6 +34,7 @@ struct PersistenceController {
                 product.productID = Int64(i)
                 product.productName = "Product \(i)"
                 product.productDescription = "Description for product \(i)"
+                //Seed initial 10 products into Core Data
                 product.productPrice = Double(i) * 10
                 product.productProvider = "Provider \(i)"
             }
