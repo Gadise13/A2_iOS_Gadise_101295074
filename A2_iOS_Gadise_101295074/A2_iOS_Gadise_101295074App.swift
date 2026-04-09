@@ -11,7 +11,14 @@ import SwiftUI
 struct A2_iOS_Gadise_101295074App: App {
     var body: some Scene {
         WindowGroup {
+
             ContentView()
+                .environment(
+                    \.managedObjectContext,
+                    persistenceController.container.viewContext
+                )
         }
     }
 }
+
+
