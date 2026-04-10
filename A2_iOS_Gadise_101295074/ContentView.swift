@@ -1,9 +1,10 @@
 //
 //  ContentView.swift
 //  A2_iOS_Gadise_101295074
-//
+//Connect navigation links to all screens
 //  Created by Gadise Oli on 2026-04-09.
-//
+//Connect navigation links to all screens
+
 
 import SwiftUI
 import CoreData
